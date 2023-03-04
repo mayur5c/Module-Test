@@ -35,7 +35,7 @@ function displayBlogPosts() {
     const editBtn = document.createElement("button");
     editBtn.innerText = "Edit";
     editBtn.addEventListener("click", () => {
-      // edit blog
+      // edit blog post
       document.querySelector("#edit-title").value = post.title;
       document.querySelector("#edit-description").value = post.description;
 
@@ -54,10 +54,8 @@ function displayBlogPosts() {
       displayBlogPosts();
     });
 
-    // appending childs
-
+    // appending the children
     postElement.appendChild(titleElement);
-
     postElement.appendChild(descriptionElement);
     postElement.appendChild(editBtn);
     postElement.appendChild(deleteBtn);
@@ -84,7 +82,7 @@ function handleCreateBlogForm(event) {
   blogPosts.push(post);
   displayBlogPosts();
 
-  // clear       form
+  // clear form
   createBlogForm.reset();
   createBlogModal.style.display = "none";
 }
