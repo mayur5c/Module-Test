@@ -4,26 +4,34 @@
     margin: 0;
     padding: 0;
   }
+
   body {
-    background-color: #000;
+    background-color: #1E1E1E;
     color: white;
   }
   
   header {
-    background-color: #333;
+    background-color: #111111;
     color: #fff;
     width: 100%;
     height: 8vh;
     padding: 10px;
   }
+
   header span {
     left: 1px;
     font-size: 27px;
   }
   header button {
     position: absolute;
-  
     right: 2%;
+    width: 253px;
+    height: 59px;
+    left: 1453px;
+    top: 12px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color:#FFFFFF;
   }
   
   #blog-container {
@@ -84,6 +92,7 @@
   }
   
   .close:hover,
+
   .close:focus {
     color: #000;
     text-decoration: none;
@@ -123,22 +132,26 @@
     display: block;
     color: black;
   }
+
   #create-blog-form input {
     width: 100%;
     margin-top: 17px;
     height: 6vh;
     padding: 10px;
   }
+  
   #create-blog-form textarea {
     width: 100%;
     height: 30vh;
     padding: 10px;
     margin-top: 21px;
   }
+  
   #create-blog-form button {
     width: auto;
     height: auto;
   }
+ 
   .cancel-post {
     display: inline-block;
     color: black;
@@ -151,9 +164,11 @@
     font-size: 12px;
     padding-top: 3px;
   }
+ 
   .cancel-post:hover {
     cursor: pointer;
   }
+  
   #edit-blog-form {
   }
 
@@ -161,22 +176,26 @@
     display: block;
     color: black;
   }
+  
   #edit-blog-form input {
     width: 100%;
     margin-top: 17px;
     height: 6vh;
     padding: 10px;
   }
+  
   #edit-blog-form textarea {
     width: 100%;
     height: 30vh;
     padding: 10px;
     margin-top: 21px;
   }
+  
   #edit-blog-form button {
     width: auto;
     height: auto;
   }
+
   .delete-post {
     display: inline-block;
     color: black;
@@ -189,6 +208,7 @@
     font-size: 12px;
     padding-top: 3px;
   }
+  
   .delete-post:hover {
     cursor: pointer;
   }
